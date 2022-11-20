@@ -1,10 +1,10 @@
-import axios from "axios";
-
 import { FormEvent, useState } from "react";
 
-import { Header } from "./components/Header";
-import { Form } from "./components/Form";
+import axios from "axios";
+
 import { Footer } from "./components/Footer";
+import { Form } from "./components/Form";
+import { Header } from "./components/Header";
 
 export function SignIn() {
   const [isUserSignedIn, setIsUserSignedIn] = useState(false);
@@ -14,7 +14,7 @@ export function SignIn() {
 
     await axios.post("/sessions", {
       email: "ivanoliver131@gmail.com",
-      password: "123456789",
+      password: "123456789"
     });
 
     setIsUserSignedIn(true);

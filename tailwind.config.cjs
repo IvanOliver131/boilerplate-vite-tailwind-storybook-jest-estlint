@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.tsx"],
@@ -8,7 +9,7 @@ module.exports = {
       md: 18,
       lg: 20,
       xl: 24,
-      "2xl": 32,
+      "2xl": 32
     },
     colors: {
       transparent: "transparent",
@@ -20,19 +21,19 @@ module.exports = {
         800: "#202024",
         400: "#7c7c8a",
         200: "#c4c4cc",
-        100: "#e1e1e6",
+        100: "#e1e1e6"
       },
 
       cyan: {
         500: "#81d8f7",
-        300: "#9be1fb",
-      },
+        300: "#9be1fb"
+      }
     },
     extend: {
       fontFamily: {
-        sans: "Inter, sans-serif",
-      },
-    },
+        sans: "Inter, sans-serif"
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 };
