@@ -158,7 +158,7 @@ module.exports = {
   staticDirs: ["../public"], // Add this for MSW
   viteFinal: (config, { configType }) => {
     if (configType === "PRODUCTION") {
-      config.base = "/boilerplate-vite/";
+      config.base = "/boilerplate-vite-tailwind-storybook-jest-estlint/";
     }
 
     return config;
@@ -202,7 +202,7 @@ initialize({
   serviceWorker: {
     url: isDevelopment
       ? "mockServiceWorker.js"
-      : "/boilerplate-vite/mockServiceWorker.js",
+      : "/boilerplate-vite-tailwind-storybook-jest-estlint/mockServiceWorker.js",
   },
 });
 

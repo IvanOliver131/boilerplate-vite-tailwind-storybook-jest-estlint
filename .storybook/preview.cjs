@@ -12,7 +12,7 @@ initialize({
   serviceWorker: {
     url: isDevelopment
       ? "mockServiceWorker.js"
-      : "/boilerplate-vite/mockServiceWorker.js"
+      : "/boilerplate-vite-tailwind-storybook-jest-estlint/mockServiceWorker.js"
   }
 });
 
