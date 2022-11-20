@@ -12,8 +12,8 @@ initialize({
   serviceWorker: {
     url: isDevelopment
       ? "mockServiceWorker.js"
-      : "/boilerplate-vite/mockServiceWorker.js",
-  },
+      : "/boilerplate-vite/mockServiceWorker.js"
+  }
 });
 
 export const decorators = [mswDecorator];
@@ -23,10 +23,10 @@ export const parameters = {
   controls: {
     matchers: {
       color: /(background|color)$/i,
-      date: /Date$/,
-    },
+      date: /Date$/
+    }
   },
   docs: {
-    theme: themes.dark,
-  },
+    theme: themes.dark
+  }
 };
