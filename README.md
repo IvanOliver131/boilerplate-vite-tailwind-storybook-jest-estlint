@@ -102,7 +102,7 @@ $ npm install -D tailwindcss postcss autoprefixer
 $ npx tailwindcss init –p
 ```
 
-- Dentro do arquivo 'tailwind.config.cjs' coloque dentro do Array de content isso "./src/\*_/_.tsx"
+- Dentro do arquivo 'tailwind.config.cjs' coloque dentro do Array de content isso sem espaços'./src/\*_ /_.tsx'
 - Crie uma pasta(styles/global.css) e coloque dentro dela o código abaixo
 
 ```bash
